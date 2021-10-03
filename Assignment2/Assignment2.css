@@ -1,0 +1,36 @@
+table,th,td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+th{
+    background-color: yellow;
+    text-emphasis-style: bold;
+}
+
+td{
+    background-color: pink;
+}
+
+
+
+.p1{
+    color: hotpink;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.p2{
+    color: pink;
+    font-family: 'Courier New', Courier, monospace
+}
+
+.p3{
+    color: lightpink;
+    font-family: 'Corsiva';
+}
+
+.div1{
+    border-color: red;
+    border-style: solid;
+}
+
