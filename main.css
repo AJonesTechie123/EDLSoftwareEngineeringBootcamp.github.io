@@ -1,0 +1,25 @@
+.half-width{
+    float:;
+}
+
+.pink{
+    background-color: pink;
+    border: solid;
+    color: white;
+}
+
+table{
+    border: 1px solid black;
+    
+}
+.tr1{
+    background-color: lightgreen;
+}
+
+.td1{
+    background-color: pink;
+}
+
+.footer{
+    text-align: center;
+}
