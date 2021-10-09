@@ -1,0 +1,27 @@
+body{
+    background-color: lightgreen;
+}
+
+.box{
+    border: 2px solid red;
+    background-image:url("mountain.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height:800px;
+    margin: 2%;
+    position:relative;
+}
+
+.busbox{
+    position: absolute;
+    top: 85%;
+    animation-name: move;
+    animation-duration: 15s;
+}
+
+@keyframes move {
+  0%{top: 85%; left:23%;}
+    
+  50%{top:25%; right:60%; transform: rotate(360deg);}
+  100%{top:85%; right:1%;}
+}
