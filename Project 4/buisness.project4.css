@@ -1,0 +1,76 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background: #f5f6fa;
+}
+
+.rowbody{
+    margin-left: 224px;
+    height: 100%;
+}
+.wrapper .sidebar{
+    background:#f5f6fa;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 225px;
+    height: 100%;
+    padding: 20px 0;
+    transition: all 0.5s ease;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 400px; 
+    text-align: center;
+    text-decoration: black;
+    font-weight: bold;
+    /*background-size:100%;*/
+    background-repeat: no-repeat;
+  }
+
+
+
+
+
+
+/*.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+*/
+  /* pic format
+  you can also set the background image size and modify that
+  <div class="books-window">
+      <div class="style_books">
+        <img src="Images/beloved.jpg" alt="Beloved" width="100%" height="100%" style="border:1px solid grey;">
+        <!-- <p align="center">  </p> -->
+      </div>
+      <div class="style_books">
+        <img src="Images/hunger.jpg" alt="Hunger" width="100%" height="100%" style="border:1px solid grey;">
+        <!-- <p align="center">   </p> -->
+      </div>
+      <div class="style_books">
+        <img src="Images/love.jpg" alt="Love" width="100%" height="100%" style="border:1px solid grey;">
+        <!-- <p align="center">   </p> -->
+      </div>
+    </div>
+background-image: url(); background-position: center;
+.books-window{
+  height:580px;
+  margin-left:23%;
+  margin-right:10px;
+  margin-top: -400px;
+}
+
+*/
